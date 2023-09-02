@@ -1,10 +1,15 @@
 # Defilend
-A web app for borrowing and lending on the Ethereum network
-cont.sol is the smart contract file 
-index.html style.css and script.mjs are files for front end 
-in first cont1.sol a basic fully functionality borrowing and lending with static interest rates u need to enter address in script.mjs the front end borrow repay and lend buttons for respective  usages
+The Ethereum Borrowing and Lending Web App is a decentralized application (DApp) that allows users to borrow and lend cryptocurrency assets on the Ethereum network using the `cont.sol` smart contract. This README provides instructions on how to use the web app and its features.
 
-features improvement cont2.sol (not tested)
+## Features of tested app
+
+1. Borrowers can request loans by specifying the amount they want to borrow and providing collateral.
+2. Lenders can offer loans by specifying the amount they want to lend in front end.
+3. Borrowers can repay their loans, including accrued interest.
+4. The smart contract enforces static interest rates on loans.
+5. Users can interact with the Ethereum network using the web app's user interface.
+
+Features improvement cont2.sol (not tested)
 ## Features
 
 1. Lenders can lend a specified amount of tokens and provide collateral.
