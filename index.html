@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum Contract Interaction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ethereum Contract Interaction</h1>
+    <div class="form-container">
+        <form id="contract-interaction-form">
+            <label for="deposit-amount">Deposit (ETH):</label>
+            <input type="text" id="deposit-amount" placeholder="Amount in ETH">
+            <button type="button" onclick="depositCollateral()">Deposit</button>
+
+            <label for="borrow-amount">Borrow (ETH):</label>
+            <input type="text" id="borrow-amount" placeholder="Amount in ETH">
+            <button type="button" onclick="borrow()">Borrow</button>
+
+            <label for="repay-amount">Repay (ETH):</label>
+            <input type="text" id="repay-amount" placeholder="Amount in ETH">
+            <button type="button" onclick="repay()">Repay</button>
+
+            <button type="button" onclick="liquidate()">Liquidate</button>
+        </form>
+    </div>
+    <div class="results">
+        <p>Borrower Balance: <span id="borrower-balance">0</span> ETH</p>
+        <p>Borrowed Amount: <span id="borrowed-amount">0</span> ETH</p>
+    </div>
+    <script src="web3.min.js"></script>
+    
+</body>
+<script src="script.mjs"></script>
+</html>
