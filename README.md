@@ -16,8 +16,8 @@ features improvement cont2.sol (not tested)
 
 ## Prerequisites
 
-- Ethereum Wallet or MetaMask extension installed in your browser.
-- Some test Ethereum (ETH) or test tokens to interact with the smart contract on the Ropsten test network.
+-  MetaMask extension installed in your browser.
+- Some tokens to interact with the smart contract on the goreli test network.
 
 ## Deployment
 
