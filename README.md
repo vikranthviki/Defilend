@@ -64,7 +64,7 @@ Features improvement cont2.sol (not tested)
 
 ## Notes
 
-- Make sure to have enough test Ethereum or test tokens in your wallet to interact with the smart contract.
+- Ensure enough test Ethereum or test tokens in your wallet to interact with the smart contract.
 - Use the Ethereum wallet or MetaMask to interact with the smart contract functions.
-
+  Download all files in the same folder and run index.html for testing functionality. Don't forget to change  the address in the script.mjs
 
